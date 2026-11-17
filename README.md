@@ -14,6 +14,12 @@ npm run dev
 Abra no navegador o endereço informado pelo Vite (por padrão, `http://localhost:5173`).
 Para gerar a versão de produção, execute `npm run build`.
 
+## Publicação no GitHub Pages
+
+O deploy é feito automaticamente pelo GitHub Actions a cada atualização da branch `main`.
+Depois que a ação **Deploy to GitHub Pages** terminar, acesse
+`https://kevem9046.github.io/Envio-da-1-Atividade-Avaliativa-4-bimestre-/`.
+
 ## Navegação e validação
 
 A navegação usa `BrowserRouter`, `Routes` e `NavLink` do React Router para trocar entre Início, Cadastro e uma rota não encontrada sem recarregar a página.
