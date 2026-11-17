@@ -62,18 +62,13 @@ export default function Cadastro() {
   return (
     <section className="registration-layout">
       <div className="registration-intro">
-        <span className="eyebrow"><span className="eyebrow-dot" /> PRIMEIRO PASSO</span>
-        <h1>Seu próximo<br />capítulo começa <span>aqui.</span></h1>
+        <span className="eyebrow">CADASTRO</span>
+        <h1>Seu próximo capítulo começa <span>aqui.</span></h1>
         <p>Conte um pouco sobre você e escolha o curso que combina com seus planos.</p>
-        <div className="intro-aside">
-          <span className="aside-icon" aria-hidden="true">↗</span>
-          <p>Aprender algo novo é investir em todas as possibilidades do seu futuro.</p>
-        </div>
       </div>
 
       <div className="form-card">
         <div className="form-heading">
-          <span className="form-step">01 <span>/ 01</span></span>
           <h2>Crie seu cadastro</h2>
           <p>Preencha os campos para começar.</p>
         </div>
@@ -163,7 +158,7 @@ export default function Cadastro() {
           </div>
 
           <button className="button button-submit" type="submit">
-            Criar meu cadastro <span aria-hidden="true">→</span>
+            Criar meu cadastro
           </button>
           <p className="form-privacy">Cadastro demonstrativo. Seus dados não são enviados nem armazenados.</p>
         </form>

@@ -22,7 +22,7 @@ Depois que a ação **Deploy to GitHub Pages** terminar, acesse
 
 ## Navegação e validação
 
-A navegação usa `BrowserRouter`, `Routes` e `NavLink` do React Router para trocar entre Início, Cadastro e uma rota não encontrada sem recarregar a página.
+`BrowserRouter`, `Routes` e `NavLink` permitem navegar entre Início, Cadastro e uma rota não encontrada sem recarregar a página; na versão publicada, `HashRouter` mantém as rotas compatíveis com o GitHub Pages.
 O formulário é controlado com `useState`; a validação ocorre no envio e exige nome com pelo menos 3 caracteres, e-mail válido, curso escolhido e senhas iguais com 6 ou mais caracteres.
 Mensagens acessíveis aparecem junto aos campos inválidos, que podem ser corrigidos sem reenviar a página; ao corrigir todos os dados, o formulário é limpo e mostra uma confirmação simulada.
 Os dados permanecem somente no estado do navegador e não são enviados a uma API ou banco de dados.
